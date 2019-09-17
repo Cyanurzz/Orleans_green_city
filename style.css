@@ -30,12 +30,12 @@ h2, h3 {
   margin-left:auto;
   border-radius:100%;
 }
-details[open]{
+.details[open]{
   margin-right : auto;
   width: 99%;
   margin-bottom:1rem;
 }
-details{
+.details{
   margin-bottom: 1em;
 }
 .article{
@@ -83,12 +83,22 @@ details:hover{
     flex-direction: column;
   }
   .contenue_conseil>.img{
-    width : 226px;
+    width : 15rem;
     margin: auto;
 
   }
   .article{
     display: flex;
     flex-direction: column;
+    text-align: center;
+  }
+  #dechets {
+    width : 100%;
+    border-radius : 0;
+  }
+  ul{
+    list-style:none;
+    margin-left:0;
+    padding-left: 0;
   }
 }
