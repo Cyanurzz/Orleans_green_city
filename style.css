@@ -151,6 +151,51 @@ header
     	z-index: 0;
 		}
 }
+
+/* Sections Actions et Associations*/
+.actions, .associations {
+	padding: 2.5em 0;
+}
+.actions {
+	background-color: #FFFFFF;
+}
+
+.associations {
+	background-color: #e9f0f6;
+}
+
+.actions h2, .associations h2 {
+	text-align: center;
+	padding: 1em 0;
+	font-size: 2em;
+}
+
+.affiches {
+	display: flex;
+	justify-content: center;
+}
+
+.affiches figure {
+	margin: 0 2.5%;
+}
+
+.affiches figure img {
+	box-shadow: 3px 3px 6px black;
+	border-radius: 5px;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.affiches figcaption {
+	text-align: center;
+	padding: 1em 0;
+	font-size: 1.3rem;
+}
+
+.associations figure img:hover {
+	box-shadow: 8px 8px 6px black;
+}
+
 /* Partie  Gestion des déchets Desktop */ 
 #dechets {
 	margin-top: 2rem;
@@ -226,9 +271,11 @@ main{
 .citation{
 	color : white;
 }
+
+/*Mobile verions*/
 @media screen and (max-width: 960px){
 /*Partie Header / nav mobile */
-.ion-md-menu{
+	.ion-md-menu{
 		display:block;
 		height:100%;
 		border:1px solid #FBFBFF;
@@ -294,7 +341,8 @@ main{
 @keyframes width-fade-in {
     0%   { width:20% }
     100% { width:100%; }
-	}	
+	}
+
 	/* Partie Gestion des Déchets Mobile */
 	#dechets{
 		margin-top: 0;
@@ -334,5 +382,17 @@ main{
 	}
 	.list{
 		margin: auto;
+	}
+
+
+	/*Section Actions et Associations*/
+	.affiches {
+	flex-direction: column;
+	align-items: center;
+	margin:0 10px;
+	}
+
+	.affiches figcaption {
+		padding: 0.5em 0 1.5em 0;
 	}
 }
