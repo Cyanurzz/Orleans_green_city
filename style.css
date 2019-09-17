@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
   font-family: 'Nunito';
 }
@@ -103,30 +103,3 @@ details:hover{
     padding-left: 0;
   }
 }
-=======
-.actions_articles {
-	width: 95%;
-	margin:0 auto;
-	display: flex;
-	justify-content: space-between;
-}
-
-h2 {
-	text-align: center;
-}
-
-.actions_articles div {
-	width: 100%;
-	height: 500px;
-	background-color: grey;
-}
-
-.actions article {
-	width: 30%;
-	border: 1px black solid;
-}
-
-.actions h3 {
-	text-align: center;
-}
->>>>>>> acadb7b4c06529f2c6b9b70f3117c6b54906d933
