@@ -1,3 +1,4 @@
+/* Partie Header/Nav Desktop */
 *{
 	margin:0;
 	padding:0;
@@ -46,7 +47,6 @@
 	text-decoration: none;
 	background-image:linear-gradient(180deg, rgba(0,128,0,1) 0%, rgba(0,128,0,1) 90%, rgba(0,54,0,1) 100%);
 	color:white;
-	border-bottom-radius: 5px;
 }
 
 .ion-md-menu{
@@ -151,7 +151,10 @@ header
     	z-index: 0;
 		}
 }
-
+/* Partie  Gestion des déchets Desktop */ 
+#dechets {
+	margin-top: 2rem;
+}
 h2, h3 {
   text-align : center;
   margin-bottom :1em;
@@ -168,7 +171,10 @@ h2, h3 {
   padding : 1em;
 }
 .list{
-  margin-top: 0;
+	margin-top: 0;
+	margin:auto;
+	padding : auto;
+	margin-left : 2rem;
 }
 .point_de_collecte>img{
   margin-left:auto;
@@ -217,8 +223,11 @@ main{
 	top:100%;
 }
 
+.citation{
+	color : white;
+}
 @media screen and (max-width: 960px){
-
+/*Partie Header / nav mobile */
 .ion-md-menu{
 		display:block;
 		height:100%;
@@ -286,6 +295,10 @@ main{
     0%   { width:20% }
     100% { width:100%; }
 	}	
+	/* Partie Gestion des Déchets Mobile */
+	#dechets{
+		margin-top: 0;
+	}
   .point_de_collecte>img{
     display: none;
   }
@@ -318,5 +331,8 @@ main{
     list-style:none;
     margin-left:0;
     padding-left: 0;
-  }
+	}
+	.list{
+		margin: auto;
+	}
 }
