@@ -1,0 +1,152 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.navbar_desktop{
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	background-color: rgba(116, 114, 121,0.4);
+	position:sticky;
+	top:0;
+	z-index:2;
+}
+
+
+.navbar_desktop *:nth-child(odd){
+	color:white;
+}
+
+.navbar_desktop *:nth-child(even){
+	color:#79E789;
+}
+
+.nav_links a{
+	margin-left: 1em;
+	padding:1em;
+	text-decoration: none;
+	color:black;
+	height:100%;
+}
+
+.nav_links a:hover{
+	margin-left: 1em;
+	text-decoration: none;
+	background-color: green;
+	color:white;
+}
+
+.ion-md-menu{
+	margin-left:auto;
+	margin-right:1em;
+	display:none;
+
+}
+.logo{
+	width:40px;
+	height:auto;
+	margin:5px;
+}
+
+.navbar_mobile{
+	width:0vw;
+	max-width:100%;
+	height:100vh;
+	max-height:100%;
+	background-color: rgba(116, 114, 121,0.6);
+	position:absolute;
+	top:0;
+	right:0;
+	display:none;
+
+}
+
+header
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100vw;
+	max-width: 100%;
+	height:100vh;
+	max-height: 100%;
+	z-index:1;
+	background-image: url('img/IMG_20190916_185800.jpg');
+	background-size:cover;
+	background-position:center;
+ 	animation: greyscale-fade-in 2s ease-in;
+
+}
+.header_img{
+	width:100vw;
+	height:100vh;
+}
+
+@keyframes greyscale-fade-in {
+    0%   { -webkit-filter: grayscale(100%); }
+    100% { -webkit-filter: grayscale(0%); }
+}
+
+
+@media screen and (max-width: 960px) {
+
+	.ion-md-menu{
+		display:block;
+		height:100%;
+		border:1px solid #FBFBFF;
+		border-radius: 10%;
+		padding:0.5em 0.7em;
+		padding-bottom:0.4em;
+		margin:auto 10px auto auto;
+		color: #FBFBFF;
+	}
+
+
+	.nav_links {
+		display:none;
+	}
+
+	.nav_links a{
+		width:80%;
+		height:auto;
+		padding:0;
+		margin-right:1em;
+	}
+
+	.nav_links a:first-child {
+		position:absolute;
+		top:0;
+		right:0;
+		width:auto;
+		height:auto;
+		padding:0.5em 0.7em;
+		padding-bottom:0.4em;
+		margin:8px 10px;
+		margin-right:10px;
+
+	}
+
+
+	.nav_links:target {
+		position:absolute;
+		top:0;
+		right:0;
+		width:100vw;
+		height:100vh;
+		display:flex;
+		flex-direction:column;
+		justify-content: space-around;
+		text-align:right;
+		align-items: flex-end;
+		background-color: rgba(116, 114, 121,0.4);
+		animation: width-fade-in 1s ease; 
+	}
+
+@keyframes width-fade-in {
+    0%   { width:20% }
+    100% { width:100%; }
+}
+
+}
