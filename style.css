@@ -7,10 +7,11 @@
 	font-family: "Nunito", serif;
 }
 
+
+/* Sections Actions et Associations*/
 .actions, .associations {
 	padding: 2.5em 0;
 }
-
 .actions {
 	background-color: #FFFFFF;
 }
@@ -19,49 +20,48 @@
 	background-color: #e9f0f6;
 }
 
-.articles {
-	width: 95%;
-	min-width: 450px;
-	margin:0 auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-h2 {
+.actions h2, .associations h2 {
 	text-align: center;
 	padding: 1em 0;
 	font-size: 2em;
 }
 
-.articles div {
-	width: 100%;
-	height: 450px;
-	background-color: grey;
+.affiches {
+	display: flex;
+	justify-content: center;
+}
+
+.affiches figure {
+	margin: 0 2.5%;
+}
+
+.affiches figure img {
 	box-shadow: 3px 3px 6px black;
 	border-radius: 5px;
-	overflow: hidden;
-	
-}
-
-.articles img {
+	min-width: 100%;
 	max-width: 100%;
-	max-height: 100%;
 }
 
-.associations article div:hover
-{
+.affiches figcaption {
+	text-align: center;
+	padding: 1em 0;
+	font-size: 1.3rem;
+}
+
+.associations figure img:hover {
 	box-shadow: 8px 8px 6px black;
 }
 
-.articles article {
-	width: 450px;
-	margin: 10px 35px;
-	border-left: 1;
-	/*border: 1px black solid;*/
-}
 
-.articles h3 {
-	text-align: center;
-	padding: 1em 0;
+@media only screen and (max-width: 961px) {
+
+	.affiches {
+		flex-direction: column;
+		align-items: center;
+		margin:0 10px;
+		}
+
+	.affiches figcaption {
+		padding: 0.5em 0 1.5em 0;
+	}
 }
