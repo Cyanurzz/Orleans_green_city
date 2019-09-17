@@ -28,6 +28,7 @@ h2, h3 {
 }
 .point_de_collecte>img{
   margin-left:auto;
+  border-radius:100%;
 }
 details[open]{
   margin-right : auto;
@@ -35,7 +36,6 @@ details[open]{
   margin-bottom:1rem;
 }
 details{
-  width:100%;
   margin-bottom: 1em;
 }
 .article{
@@ -43,7 +43,6 @@ details{
 }
 .img{
   height:160px;
-  border-radius : 100%;
 }
 a{
   text-decoration: none;
@@ -67,3 +66,29 @@ details:hover{
   color: rgb(238,111,45);
 }
 
+@media screen and (max-width: 960px){
+  .point_de_collecte>img{
+    display: none;
+  }
+  details[open]{
+    margin-bottom:1rem;
+    text-align: center;
+  }
+  .point_de_collecte {
+    margin-top: 1em;
+    padding : 1em;
+    margin:0 auto;
+  }
+  .contenue_conseil{
+    flex-direction: column;
+  }
+  .contenue_conseil>.img{
+    width : 226px;
+    margin: auto;
+
+  }
+  .article{
+    display: flex;
+    flex-direction: column;
+  }
+}
