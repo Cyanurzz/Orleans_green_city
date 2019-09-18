@@ -1,29 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-	  <meta charset="UTF-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	  <link rel="stylesheet" type="text/css" href="style.css">
-	  <title>Orléans_green_city</title>
-	</head>
-	<body>
-		<section class="actions">
-			<h2>ACTIONS</h2>
-			<div class="actions_articles">
-				<article>
-					<div></div>
-					<h3>ACTION 1</h3>
-				</article>
-				<article>
-					<div></div>
-					<h3>ACTION 2</h3>
-				</article>
-				<article>
-					<div></div>
-					<h3>ACTION 3</h3>
-				</article>
-			</div>
-		</section>
-	</body>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Orléans ville green</title>
+    <meta name="description" content="Vous trouverez sur cette page les actions mises en oeuvre  par la métrople d'Orléans ainsi que de ces acteurs concernant l'écologie"/>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ********************************* Header / NavBar ********************************* -->
+	<div class="loadpage_image"><img src="img/onload.gif" alt=""></div>
+
+	<nav class="navbar_desktop">
+		<img class ="logo" src="img/O.png" alt="logo">
+		<div class="nav_links" id="menu">
+			<a class="icon ion-md-menu" href="#"></a>
+			<a class="" href="#actions" title="">ACTIONS</a>
+			<a class="" href="#associations" title="">ASSOCIATIONS</a>
+			<a class="" href="#dechets" title="">DECHETS</a>
+		</div>
+		<a class="icon ion-md-menu" href="#menu"></a>
+	</nav>
+	<header>
+		<div class="accroche">
+			<h1>Orléans, ville "green"</h1>
+			<blockquote>
+		    	<p class="citation">"La révolution écologique commencera vraiment quand chacun d'entre nous comprendra qu'il y a d'autres façons d'être riche."</p>
+			</blockquote>
+		</div>
+	</header>
+			<!-- ********************************* Sections Actions et Associations ********************************* -->
+	<section id="actions" class="actions">
+		<h2>ACTIONS</h2>
+		<div class="affiches">
+			<figure>
+				<img src="img/bus2.jpg" alt="Bus 100% électrique du réseau TAO" />
+				<figcaption>Réseau TAO : test de 2 bus 100% éléctriques</figcaption>	
+			</figure>
+			<figure>
+				<img src="img/marche.jpg" alt="Marché orléanais" />
+				<figcaption>Promotion de l'économie locale</figcaption>	
+			</figure>
+			<figure>
+				<img src="img/loire.jpg" alt="Membre d'une association nettoyant les bords de Loire" />
+				<figcaption>Nettoyage des bords de Loire</figcaption>	
+			</figure>
+		</div>
+	</section>
+	<section id="associations" class="associations">
+		<h2>ASSOCIATIONS</h2>
+		<div class="affiches">
+			<figure>
+				<a href="association_1.html"><img src="img/foret.jpg" alt="Association 1" /></a>
+				<figcaption>Arbocentre</figcaption>	
+			</figure>
+			<figure>
+				<a href="association_2.html"><img src="img/animaux.jpg" alt="Association 2" /></a>
+				<figcaption>France Nature Environnement</figcaption>	
+			</figure>
+			<figure>
+				<a href="association_3.html"><img src="img/air.jpg" alt="Association 3" /></a>
+				<figcaption>Lig' Air</figcaption>	
+			</figure>
+		</div>
+	</section>
+        <!-- ********************************* Gestion des déchets ********************************* -->
+    <section id="dechets">
+        <h2><span>GESTION DES</span> DÉCHETS</h2>
+        <article class="article">
+            <h3>Conseil</h3>
+            <div class = "contenue_conseil">
+                <img src="img/Conseil.png" alt="Image Poubelle de tri" class="img">
+                <ul class="list">
+                    <li><p>Votre bac jaune accepte les emballages en <span>plastique</span>,<span>métal</span>, <span>cartonettes</span> et tous les papiers</p></li>
+                    <li><p><span>Inutile de laver les boites de conserve</span>. Il suffit de bien les vider. L'<span>eau</span> est précieuse ! économison la ...</p></li>
+                    <li><p>Pour limiter le volume de vos déchets, <span>compactez vos bouteilles et mettez vos cartonettes à plat</span></p></li>
+                </ul>
+            </div>
+        </article>
+
+        <article class="article">
+            <h3>Point de collecte</h3>
+            <div class="point_de_collecte">
+                <div class="liste_details">
+                    <details class="details">
+                        <summary>Collecte des déchets</summary>
+                        <ul>
+                            <li><p>Depuis 2002, la collecte et le traitement des déchets sont assurés par Orléans Métropole sur l’ensemble des 22 communes.</p></li>
+                            <li><p>Des fréquences de collecte au plus près des besoins</p></li>
+                        </ul>
+                        <a href="http://www.orleans-metropole.fr/1376/collecte-des-dechets.htm">Plus d'info</a>
+                    </details>
+                    <details class="details">
+                        <summary>Tri et déchetteries</summary>
+                        <ul>
+                            <li><p>Déchetterie Est - Chécy : Parc d’activités de la Guignardière – rue Pierre et Marie Curie</p></li>
+                            <li><p>Déchetterie Ouest - Ingré : Chemin de la Vallée de l’Azin</p></li>
+                            <li><p>Déchetterie Sud Ouest - Orléans : Chemin du Clos de l’Alouette – 33 rue Hatton</p></li>
+                            <li><p>Déchetterie Sud Est - Saint Cyr en Val : Avenue du parc Floral</p></li>
+                            <li><p>Déchetterie Nord Est - Saint Jean de Braye : Parc Archimède – rue de la Burelle</p></li>
+                            <li><p>Déchetterie Nord - Saran : Zone d’activités de Montaran – rue Marcel Paul</p></li>
+                        </ul>
+                        <a href="http://www.orleans-metropole.fr/1377/tri-et-dechetteries.htm"> Plus d'info</a>
+                    </details>
+                    <details class="details">
+                        <summary>Points d'apports volontaire</summary>
+                        <ul>
+                            <li><p>Multi-matériaux (recyclable)</p></li>
+                            <li><p>Verre</p></li>
+                            <li><p>Textiles</p></li>
+                        </ul>
+                        <a href="https://mapo.orleans-metropole.fr/portal/apps/webappviewer/index.html?id=5d67836fd52c49a19fd2bf5d0310b91b">Plus d'info</a>
+                    </details>
+                </div>
+                <img src="img/img.png" title="Carte" class="img">
+            </div>
+
+        </article>
+    </section>
+</body>
 </html>
