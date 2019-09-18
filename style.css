@@ -285,20 +285,17 @@ main{
 
 .informations_contact a{
 	text-decoration: none;
-	color: black;
 }
-/*Partie ASSOCIATION*/
+/*Partie Page Association*/
 /*Titre Associaction*/
 .informations h2{
 	text-align: center;
-	color: #82d883;
 	margin:30px; 
 
 }
 
 .informations h3{
 	text-align: center;
-	color: green;
 	margin:30px 3% 10px 3%; 
 }
 
@@ -315,30 +312,29 @@ main{
 	justify-content: space-around;
 	align-items: flex-start;
 	width: 100%;
-	height: 180px;
+	height: 260px;
 	font-size: 16px;
-	color: green;
 	list-style-type: none;
 }
 
-.informations_adresse{
-	color: #82d883;
+.informations_adresse p{
 	line-height: 1.5;
 }
 
-.informations_adresse h4{
-	color: black;
-	font-weight: normal;
+.informations_adresse h3{
+	margin: 0;
+	font-size: 17pt;
+	padding-top:0;
+	text-align: left; 
 }
 
 .informations_contact{
 	line-height: 1.5;
+	font-size: 17pt;
 }
 
 .informations_contact a:hover{
-	color: green;
-	border: solid 2px blue;
-	border-radius: 6px;
+
 }
 
 .informations_contact img{
@@ -353,7 +349,7 @@ main{
 }
 
 .informations_image img{
-	height: 10rem;
+	height: 15rem;
 }
 
 /*Section Description*/
@@ -364,7 +360,7 @@ main{
 	align-items: center;
 	width: 100%;
 	height: auto;
-	background-color: #d6d6d6;
+	background-color: #e9f0f6;
 }
 
 .description h3{
@@ -626,14 +622,22 @@ p.copyright
 
 	.informations ul{
 		display: flex;
-		height: 500px;
+		height: 800px;
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: space-evenly;
 	}
 
 	.informations_image img{
-		height: 20rem;
+		height: 30rem;
+	}
+
+	.informations_adresse h3{
+	margin: 0;
+	padding-bottom:0; 
+	font-size: 17pt;
+	padding-top:0;
+	text-align: center; 
 	}
 
 	.informations_adresse, .informations_contact{
