@@ -100,18 +100,31 @@ header
 
 .accroche h1{
 	margin-bottom: 10px;
+	font-size : 60pt;
 }
-
+h1, h2, h3{
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+	padding: 1rem 0;
+	color:#79e789;
+}
+h2 span{
+	font-family: 'Indie Flower', cursive;    
+}
+h2 {
+	font-size: 45pt;
+}
+h3 {
+  margin-bottom :1em;
+	font-size : 30pt;
+}
 .header_img{
 	width:100vw;
 	height:100vh;
 }
 
-.accroche h1{
-	font-size:3rem;
-}
 .accroche blockquote{
-	font-size:2rem;
+	font-size: 17pt;
 	font-style: italic;
 }
 
@@ -155,12 +168,7 @@ header
 .associations {
 	background-color: #e9f0f6;
 }
-h2 {
-	text-align: center;
-	padding: 1em 0;
-	font-size: 2em;
-	color:#79e789;
-}
+
 
 .affiches {
 	display: flex;
@@ -196,26 +204,25 @@ h2 {
 	padding:1rem;
 
 	}
-h3 {
-  text-align : center;
-  margin-bottom :1em;
-  color: #79e789;
-}
 
+figcaption{
+	font-size: 17pt;
+}
 .contenue_conseil{
   display : flex;
-  margin-top: 1em;
+	margin-top: 1em;
+	align-items: center;
 }
 .point_de_collecte {
   display: flex;
   margin-top: 1em;
-  padding : 1em;
+	padding : 1em;
+	align-items: center;
 }
 .list{
-	margin-top: 0;
-	margin:auto;
-	padding : auto;
-	margin-left : 2rem;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .point_de_collecte>img{
   margin-left:auto;
@@ -233,18 +240,26 @@ h3 {
   margin-top : 2em;
 }
 .img{
-  height:160px;
+  width:40%;
 }
 a{
   text-decoration: none;
   color:rgb(184,204,89);
 }
 p, details{
-  color: rgb(100,100,100);
+	color: rgb(100,100,100);
+	font-size:17pt;
+}
+.list>li{
+	background-image: url('https://img.icons8.com/wired/64/000000/greentech.png');
+	background-repeat: no-repeat;
+	background-position: 0 0.4em;
+	padding-left: 5em;
+	padding-bottom : 3em;
 }
 
 h2>span{
-  color:rgb(100,100,100);
+	color:rgb(100,100,100);
 }
 
 span{
@@ -253,10 +268,10 @@ span{
 
 /* Animation */
 a:hover{
-  color: rgb(238,111,45);
+  color: rgb(233,166,61);
 }
 details:hover{
-  color: rgb(238,111,45);
+  color: rgb(233,166,61);
 }
 
 main{
@@ -348,24 +363,22 @@ main{
   }
   details[open]{
     margin-bottom:1rem;
-    text-align: center;
   }
   .point_de_collecte {
     margin-top: 1em;
     padding : 1em;
-    margin:0 auto;
   }
   .contenue_conseil{
     flex-direction: column;
   }
   .contenue_conseil>.img{
-    width : 15rem;
+    width : 20rem;
     margin: auto;
   }
   .article{
     display: flex;
     flex-direction: column;
-    text-align: center;
+
   }
   #dechets {
     width : 100%;
@@ -379,6 +392,7 @@ main{
 	.list{
 		margin: auto;
 	}
+
 
 
 	/*Section Actions et Associations*/
