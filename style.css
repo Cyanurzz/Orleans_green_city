@@ -1,25 +1,113 @@
-.actions_articles {
-	width: 95%;
-	margin:0 auto;
-	display: flex;
-	justify-content: space-between;
+
+.informations_contact a{
+	text-decoration: none;
+	color: black;
 }
 
-h2 {
+/*Titre Associaction*/
+.informations h2{
 	text-align: center;
+	color: #82d883;
+	margin:30px; 
+
 }
 
-.actions_articles div {
+.informations h3{
+	text-align: center;
+	color: green;
+	margin:30px 3% 10px 3%; 
+}
+
+/*Section Information*/
+
+.informations{
+	background-color: white;
+}
+
+.informations ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	align-items: flex-start;
 	width: 100%;
+	height: 180px;
+	font-size: 16px;
+	color: green;
+	list-style-type: none;
+}
+
+.informations_adresse{
+	color: #82d883;
+	line-height: 1.5;
+}
+
+.informations_adresse h4{
+	color: black;
+	font-weight: normal;
+}
+
+.informations_contact{
+	line-height: 1.5;
+}
+
+.informations_contact a:hover{
+	color: green;
+	border: solid 2px blue;
+	border-radius: 6px;
+}
+
+.informations_contact img{
+	height: 1em;
+}
+
+.informations_image{
+	display: flex;
+	box-shadow: 3px 3px 6px black;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.informations_image img{
+	height: 10rem;
+}
+
+/*Section Description*/
+
+.description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	background-color: #d6d6d6;
+}
+
+.description h3{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.description p{
+	margin-top: 5px;
+	text-align: left;
+	width: 80%;
+}
+
+@media only screen and (max-width: 961px){
+
+.informations ul{
+	display: flex;
 	height: 500px;
-	background-color: grey;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: space-evenly;
 }
 
-.actions article {
-	width: 30%;
-	border: 1px black solid;
+.informations_image img{
+	height: 20rem;
 }
 
-.actions h3 {
+.informations_adresse, .informations_contact{
 	text-align: center;
 }
