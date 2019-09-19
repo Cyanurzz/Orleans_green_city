@@ -284,8 +284,10 @@ main{
 /*Titre Associaction*/
 .informations h2{
 	text-align: center;
-	margin:30px; 
-
+	color: white;
+	margin:3% 25%;
+	background-color: #79e789; 
+	border-radius: 120px;
 }
 
 .informations h3{
@@ -359,7 +361,9 @@ main{
 
 .description h3{
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 10px;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
 .description p{
@@ -628,6 +632,10 @@ p.copyright
 		align-items: center;
 		justify-content: space-evenly;
 	}
+
+	.informations h2{
+	margin:3% 10%;
+    }
 
 	.informations_image img{
 		height: 30rem;
