@@ -180,7 +180,7 @@ h3 {
 }
 
 .affiches figure img {
-	box-shadow: 3px 3px 6px black;
+	box-shadow: 2px 2px 6px black;
 	border-radius: 5px;
 	max-width: 100%; 
 	max-height: 450px;
@@ -190,10 +190,11 @@ h3 {
 	text-align: center;
 	padding: 1em 0;
 	font-size: 1.3rem;
+	color:#646464;
 }
 
 .associations figure img:hover {
-	box-shadow: 5px 5px 6px black;
+	box-shadow: 4px 4px 4px black;
 }
 
 /* Partie  Gestion des déchets Desktop */ 
