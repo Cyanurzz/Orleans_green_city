@@ -160,7 +160,7 @@ h3 {
 }
 
 /* Sections Actions et Associations*/
-section {
+.action, .associations, .dechets {
 	padding-top: 2.5em;
 }
 .actions {
