@@ -287,7 +287,7 @@ main{
 .informations h2{
 	text-align: center;
 	color: white;
-	margin:3% 25%;
+	margin:0 25% 3% 25%;
 	background-color: #79e789; 
 	border-radius: 120px;
 }
@@ -300,7 +300,10 @@ main{
 /*Section Information*/
 
 .informations{
-	background-color: white;
+	background-image: url("img/test.png");
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 20px;
 }
 
 .informations ul{
@@ -370,6 +373,7 @@ main{
 
 .description p{
 	margin-top: 5px;
+	margin-bottom: 30px;
 	text-align: left;
 	width: 80%;
 }
@@ -638,7 +642,7 @@ p.copyright
 	}
 
 	.informations h2{
-	margin:3% 10%;
+		margin:5% 5% 3% 5%;
     }
 
 	.informations_image img{
@@ -656,6 +660,7 @@ p.copyright
 	.informations_adresse, .informations_contact{
 		text-align: center;
 	}
+
   label
   {
     display: flex;
