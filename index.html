@@ -11,13 +11,14 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- ********************************* Header / NavBar ********************************* -->
 	<div class="loadpage_image"><img src="img/onload.gif" alt=""></div>
 
 	<nav class="navbar_desktop">
-		<img class ="logo" src="img/O.png" alt="logo">
+		<a href="#"><img class ="logo" src="img/O.png" alt="logo"></a>
 		<div class="nav_links" id="menu">
 			<a class="icon ion-md-menu" href="#"></a>
 			<a class="" href="#actions" title="">ACTIONS</a>
@@ -35,7 +36,7 @@
 		</div>
 	</header>
 			<!-- ********************************* Sections Actions et Associations ********************************* -->
-	<section id="actions" class="actions">
+	<section id="actions" class="actions" data-aos="zoom-in-right" data-aos-delay="250" data-aos-duration="1000">
 		<h2>ACTIONS</h2>
 		<div class="affiches">
 			<figure>
@@ -54,7 +55,7 @@
 	</section>
 	<section id="associations" class="associations">
 		<h2>ASSOCIATIONS</h2>
-		<div class="affiches">
+		<div class="affiches" data-aos="zoom-in-left" data-aos-delay="250" data-aos-duration="1000">
 			<figure>
 				<a href="association_1.html" title="Découvrez l'association Arbocentre"><img src="img/foret.jpg" alt="Photo d'une fôret" /></a>
 				<figcaption>Arbocentre</figcaption>	
@@ -75,28 +76,28 @@
         <article class="article">
             <h3>Conseil</h3>
             <div class = "contenue_conseil">
-                <img src="img/Conseil.png" alt="Image Poubelle de tri" class="img">
+                <img src="img/Conseil.png" alt="Image Poubelle de tri" class="img" data-aos="fade-right">
                 <ul class="list">
-                    <li><p>Votre bac jaune accepte les emballages en <span>plastique</span>, <span>métal</span>, <span>carton</span> et tous les papiers.</p></li>
-                    <li><p><span>Inutile de laver les boîtes de conserve</span>. Il suffit de bien les vider. L'<span>eau</span> est précieuse ! Économisons-la...</p></li>
-                    <li><p>Pour limiter le volume de vos déchets, <span>compactez vos bouteilles et mettez vos embalages en carton à plat.</span></p></li>
+                    <li data-aos="fade-left"><p>Votre bac jaune accepte les emballages en <span>plastique</span>, <span>métal</span>, <span>carton</span> et tous les papiers.</p></li>
+                    <li data-aos="fade-left"><p><span>Inutile de laver les boîtes de conserve</span>. Il suffit de bien les vider. L'<span>eau</span> est précieuse ! Économisons-la...</p></li>
+                    <li data-aos="fade-left"><p>Pour limiter le volume de vos déchets, <span>compactez vos bouteilles et mettez vos embalages en carton à plat.</span></p></li>
                 </ul>
             </div>
         </article>
 
-        <article class="article">
+        <article class="article back">
             <h3>Point de collecte</h3>
             <div class="point_de_collecte">
                 <div class="liste_details">
-                    <details class="details">
+                    <details class="details"data-aos="zoom-in-right">
                         <summary>Collecte des déchets</summary>
                         <ul>
                             <li><p>Depuis 2002, la collecte et le traitement des déchets sont assurés par Orléans Métropole sur l’ensemble des 22 communes.</p></li>
                             <li><p>Des fréquences de collecte au plus près des besoins</p></li>
                         </ul>
-                        <a href="http://www.orleans-metropole.fr/1376/collecte-des-dechets.htm">Plus d'infos</a>
+                        <a href="http://www.orleans-metropole.fr/1376/collecte-des-dechets.htm" data-aos="zoom-in-left">Plus d'infos</a>
                     </details>
-                    <details class="details">
+                    <details class="details" data-aos="zoom-in-right">
                         <summary>Tri et déchetteries</summary>
                         <ul>
                             <li><p>Déchetterie Est - Chécy : Parc d’activités de la Guignardière – rue Pierre et Marie Curie</p></li>
@@ -108,7 +109,7 @@
                         </ul>
                         <a href="http://www.orleans-metropole.fr/1377/tri-et-dechetteries.htm"> Plus d'infos</a>
                     </details>
-                    <details class="details">
+                    <details class="details" data-aos="zoom-in-right" >
                         <summary>Points d'apports volontaire</summary>
                         <ul>
                             <li><p>Multi-matériaux (recyclable)</p></li>
@@ -118,7 +119,7 @@
                         <a href="https://mapo.orleans-metropole.fr/portal/apps/webappviewer/index.html?id=5d67836fd52c49a19fd2bf5d0310b91b">Plus d'infos</a>
                     </details>
                 </div>
-                <img src="img/img.png" title="Carte" class="img">
+                <img src="img/img.png" title="Carte" class="img" data-aos="zoom-in-right" data-aos-delay="250" data-aos-duration="1000">
             </div>
 
         </article>
@@ -139,8 +140,9 @@
                 <textarea id="msg" name="user_message"></textarea>
             </div>
                 <div class="button">
-                  <button type="submit">Envoyer</button>
+                    <button type="submit">Envoyer</button>
                 </div>
+<<<<<<< HEAD
           </form>
         </section>
           <footer>
@@ -164,3 +166,31 @@
           </footer>
         </body>
       </html>
+=======
+        </form>
+    </section>
+        <footer>
+            <div class="lien_icone">
+                <div class="lien">
+                    <a href="Page du lien" target="_blank">Action</a> 
+                    <a href="Page du lien" target="_blank">Association</a>
+                    <a href="Page du lien" target="_blank">Gestion des déchets</a>
+                </div>
+                <div class="icon_follow">
+                <div class="icon">
+                    <a href="twitter#"><img src="twitter_socialnetwork_20007.ico" alt=""></a>
+                    <a href="facebook#"><img src="facebook_socialnetwork_17442.ico" alt=""></a>
+                    <a href="instagram#"><img src="Instagram_icon-icons.com_66804.ico" alt=""></a>
+                </div>
+                    <p class="follow">N'oubliez pas de nous suivre</p>
+                </div>
+            </div>
+            <p class="copyright">© 2019 Copyright : Communauté Wilder</p>
+        </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+</body>
+</html>
+>>>>>>> b4904c39b7717cb15c18ce24fdea641e745f1c1a
