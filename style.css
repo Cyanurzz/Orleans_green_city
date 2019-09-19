@@ -306,6 +306,7 @@ main{
 .informations h3{
 	text-align: center;
 	margin:30px 3% 10px 3%; 
+	padding: 0;
 }
 
 /*Section Information*/
@@ -646,7 +647,7 @@ p.copyright
 
 	.informations ul{
 		display: flex;
-		height: 800px;
+		height: 600px;
 		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: space-evenly;
@@ -654,18 +655,24 @@ p.copyright
 
 	.informations h2{
 		margin:5% 5% 3% 5%;
+		font-size: 28pt;
     }
 
+	.informations h3{
+		margin:50px 3% 0 3%; 
+	}
+
 	.informations_image img{
-		height: 30rem;
+		max-width: 100%; 
+		max-height: 450px;
 	}
 
 	.informations_adresse h3{
-	margin: 0;
-	padding-bottom:0; 
-	font-size: 17pt;
-	padding-top:0;
-	text-align: center; 
+		margin: 0;
+		padding-bottom:0; 
+		font-size: 17pt;
+		padding-top:0;
+		text-align: center; 
 	}
 
 	.informations_adresse, .informations_contact{
