@@ -419,7 +419,7 @@ form
   background-image:url(IMG_20190918_134157.jpg);
   background-size: cover;
   background-attachment:fixed; 
-  height: 74.5vh;
+  height: calc(80vh - 50px);
 }
 textarea
 {
