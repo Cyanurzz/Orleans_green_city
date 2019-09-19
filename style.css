@@ -189,7 +189,7 @@ h3 {
 .affiches figcaption {
 	text-align: center;
 	padding: 1em 0;
-	font-size: 1.3rem;
+	font-size: 17pt;
 }
 
 .associations figure img:hover {
@@ -197,27 +197,19 @@ h3 {
 }
 
 /* Partie  Gestion des déchets Desktop */ 
-#dechets {
-	margin-top: 2rem;
-	width:80%;
-	margin: auto;
-	padding:1rem;
-
-	}
-
-figcaption{
-	font-size: 17pt;
+.back{
+	background-image: url("img/test.png");
+	background-attachment: fixed;
+	background-size: cover;
 }
 .contenue_conseil{
   display : flex;
-	margin-top: 1em;
 	align-items: center;
 }
 .point_de_collecte {
   display: flex;
-  margin-top: 1em;
-	padding : 1em;
 	align-items: center;
+	padding-left : 5%;
 }
 .list{
   list-style-type: none;
@@ -226,7 +218,8 @@ figcaption{
 }
 .point_de_collecte>img{
   margin-left:auto;
-  border-radius:100%;
+	border-radius:100%;
+	padding : 3%;
 }
 .details[open]{
   margin-right : auto;
@@ -240,7 +233,7 @@ figcaption{
   margin-top : 2em;
 }
 .img{
-  width:40%;
+  width:30%;
 }
 a{
   text-decoration: none;
@@ -254,8 +247,8 @@ p, details{
 	background-image: url('https://img.icons8.com/wired/64/000000/greentech.png');
 	background-repeat: no-repeat;
 	background-position: 0 0.4em;
-	padding-left: 5em;
-	padding-bottom : 3em;
+	padding : 1rem 5rem;
+	align-items: center;
 }
 
 h2>span{
@@ -666,9 +659,9 @@ p.copyright
     width: 70%;
   }
 
-.form
-{
-  height: 70vh;
-}
+	.form
+	{
+  	height: 70vh;
+	}
 }
 
