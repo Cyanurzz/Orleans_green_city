@@ -298,7 +298,7 @@ main{
 .informations h2{
 	text-align: center;
 	color: white;
-	margin:0 25% 3% 25%;
+	margin:0 25% 0 25%;
 	background-color: #79e789; 
 	border-radius: 120px;
 }
@@ -645,6 +645,7 @@ p.copyright
 		padding: 0.5em 0 1.5em 0;
 	}
 
+	/*Pages Association*/
 	.informations ul{
 		display: flex;
 		height: 600px;
