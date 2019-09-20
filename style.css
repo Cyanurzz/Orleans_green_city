@@ -341,7 +341,7 @@ main{
 
 .informations_image{
 	display: flex;
-	box-shadow: 3px 3px 6px black;
+	box-shadow: 3px 3px 6px black;b
 	border-radius: 5px;
 	overflow: hidden;
 }
@@ -431,11 +431,6 @@ textarea
   margin: 1rem;
   background-color: rgba(255, 255, 255, 0.7);
 }
-.button:hover
-{
-  opacity: 0.8;
-  cursor: pointer;
-}
 .button
 {
   padding: 10px;
@@ -443,6 +438,15 @@ textarea
 button
 {
   font-size: 17pt;
+  border-radius: 10px;
+  padding: 10px;
+  border:rgba(29, 132, 123,1);
+}
+button:hover
+{
+	background-image:linear-gradient(180deg, rgba(29, 132, 123,1) 0%, rgba(29, 132, 123,1) 90%, rgba(0,54,0,1) 100%);
+	border:rgba(29, 132, 123,1);
+	color: white;
 }
 label
 {
@@ -472,6 +476,8 @@ p.copyright
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size: 10pt;
+  color: whitesmoke;
   
 }
 .lien_icone
@@ -659,22 +665,49 @@ p.copyright
   label
   {
     display: flex;
-    flex-direction: column;
-    width: auto;
-    text-align: center;
+    flex-direction: row;
+    text-align: left;
+	align-items: left;
+	width: 90%;
   }
   input
   {
-    width: 70%
+    width: 90%;
   }
   textarea
   {
-    width: 70%;
+    width: 90%;
+    height: 60%;
   }
 
 	.form
 	{
-  	height: 70vh;
-	}
+    height: calc (100vh - 50px);
+
+  }
+  form
+  {
+    width: 100%;
+  }
+  .form_contenaire
+  {
+    display: flex;
+    flex-direction: column;
+	width: 80%;
+	align-items: left;
+  }
+  .lien_icone
+  {
+	flex-direction: column;
+  }
+  footer
+  {
+	  height: 40vh;
+  }
+  .lien
+  {
+	  text-align: center;
+  }
+  
 }
 
