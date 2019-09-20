@@ -199,7 +199,7 @@ h3 {
 
 .affiches figure img:hover {
 	box-shadow: 4px 4px 4px black;
-	filter: brightness(0.7);
+	filter: brightness(0.9);
 }
 
 /* Partie  Gestion des déchets Desktop */ 
