@@ -387,19 +387,20 @@ main{
 
 /*Section Description*/
 
+.description_conf{
+	height: 600px;
+	width: 100%;
+	background-color: #e9f0f6;
+}
+
 .description {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;
-	height: auto;
-	background-color: #e9f0f6;
 }
 
 .description h3{
 	text-align: center;
-	margin-top: 10px;
-	padding-bottom: 0;
 	margin-bottom: 0;
 }
 
