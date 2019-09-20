@@ -311,6 +311,7 @@ main{
 	text-align: center;
 	color: white;
 	margin:0 25% 0 25%;
+	padding:0;
 	background-color: rgba(33, 51, 35, 0.562);
 	border-radius: 120px;
 }
@@ -707,6 +708,10 @@ p.copyright
 	.informations_adresse, .informations_contact{
 		text-align: center;
 	}
+
+.description_conf{
+	height: auto;
+}
 
   label
   {
