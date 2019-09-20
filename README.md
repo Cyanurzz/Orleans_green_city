@@ -1,9 +1,16 @@
 # Orleans_green_city
-ancien:[ici La charte Couleur](https://coolors.co/export/pdf/f9f9f9-ededed-f4f4f4-d6d6d6-82d883)  
-[Drive photo](https://photos.app.goo.gl/y9g6Xy4BTqTVnYHu8)  
+
+## Premier projet de développement web à la Wild Code School  
+
+###Participants:  
+* Cyanurzz
+* mikami45
+* Sands31
+* Willou-bob
+   
 [site exemple pour nouvelle charte](https://growthspark.com/)
 
-#### navs:
+## navs:
 **couleurs**
 
 Police: white + #79E789  
