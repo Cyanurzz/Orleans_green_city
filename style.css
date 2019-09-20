@@ -162,7 +162,7 @@ h3 {
 
 /* Sections Actions et Associations*/
 .actions, .associations, #dechets {
-	padding-top: 2.5em;
+	padding: 2.5em 0;
 }
 .actions {
 	background-color: #FFFFFF;
