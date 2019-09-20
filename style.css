@@ -307,6 +307,7 @@ main{
 	text-align: center;
 	margin:30px 3% 10px 3%; 
 	padding: 0;
+	color: rgba(29, 132, 123,1);
 }
 
 /*Section Information*/
@@ -338,7 +339,8 @@ main{
 	margin: 0;
 	font-size: 17pt;
 	padding-top:0;
-	text-align: left; 
+	text-align: left;
+	color: rgba(29, 132, 123,1);
 }
 
 .informations_contact{
@@ -346,9 +348,15 @@ main{
 	font-size: 17pt;
 }
 
-.informations_contact a:hover{
-
+.informations_contact a {
+	color: #646464;
 }
+
+.informations_contact a:hover {
+	text-decoration: underline;
+	/*color: rgba(29, 132, 123,1);*/
+}
+
 
 .informations_contact img{
 	height: 1em;
