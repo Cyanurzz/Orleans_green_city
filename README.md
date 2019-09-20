@@ -2,7 +2,7 @@
 
 ## Premier projet de développement web à la Wild Code School  
 
-###Participants:  
+### Participants:  
 * Cyanurzz
 * mikami45
 * Sands31
@@ -10,7 +10,7 @@
    
 [site exemple pour nouvelle charte](https://growthspark.com/)
 
-## navs:
+### navs:
 **couleurs**
 
 Police: white + #79E789  
