@@ -662,7 +662,9 @@ p.copyright
 		margin: auto;
 		margin-left: 2rem;  
 	}
-
+	.titre_que_personne_ne_lira{
+		width: 90%;
+	}
 
 
 	/*Section Actions et Associations*/
