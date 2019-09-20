@@ -221,14 +221,14 @@ h3 {
 }
 .liste_details{
 	background-color: rgba(233, 240, 246,0.8);
-	Padding : 2em;
-	border-radius : 3%;
+	Padding : 3em;
+	border-radius : 20px;
 }
 .point_de_collecte>img{
-  margin-left:auto;
-	border-radius:100%;
-	padding : 3% 0;
-	margin-top : 5%;
+	margin-left:auto;
+	border-radius: 100px;
+	padding : 2%;
+
 }
 .details[open]{
   margin-right : auto;
@@ -255,7 +255,13 @@ p, details{
 	font-size:17pt;
 }
 .titre_que_personne_ne_lira{
-	background-color: rgba(0, 0, 0,0.6)
+	background-color: rgba(0, 0, 0,0.6);
+	width: 40%;
+	border-radius: 20px;
+	display : flex;
+	margin: auto;
+	justify-content: center;
+	padding: auto;
 }
 .list>li{
 	background-image: url('https://img.icons8.com/wired/64/000000/greentech.png');
