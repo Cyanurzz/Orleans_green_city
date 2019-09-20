@@ -180,6 +180,7 @@ h3 {
 
 .affiches figure {
 	margin: 0 2.5%;
+	position: relative;
 }
 
 .affiches figure img {
@@ -196,8 +197,9 @@ h3 {
 	font-size: 17pt;
 }
 
-.associations figure img:hover {
+.affiches figure img:hover {
 	box-shadow: 4px 4px 4px black;
+	filter: brightness(0.7);
 }
 
 /* Partie  Gestion des déchets Desktop */ 
