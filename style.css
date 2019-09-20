@@ -118,8 +118,9 @@ h2 {
 }
 h3 {
 	margin-bottom :1em;
-	padding-bottom: 2rem;
+	padding: 1rem;
 	font-size : 30pt;
+	color:whitesmoke;
 }
 .header_img{
 	width:100vw;
@@ -261,9 +262,9 @@ p, details{
 	font-size:17pt;
 }
 .titre_que_personne_ne_lira{
-	background-color: rgba(0, 0, 0,0.6);
+	background-color: rgba(33, 51, 35,0.6);
 	width: 40%;
-	border-radius: 20px;
+	border-radius: 60px;
 	display : flex;
 	margin: auto;
 	justify-content: center;
@@ -311,6 +312,7 @@ main{
 	text-align: center;
 	color: white;
 	margin:0 25% 0 25%;
+	padding:0;
 	background-color: rgba(33, 51, 35, 0.562);
 	border-radius: 120px;
 }
@@ -387,20 +389,22 @@ main{
 
 /*Section Description*/
 
+.description_conf{
+	height: 600px;
+	width: 100%;
+	background-color: #e9f0f6;
+}
+
 .description {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;
-	height: auto;
-	background-color: #e9f0f6;
 }
 
 .description h3{
 	text-align: center;
-	margin-top: 10px;
-	padding-bottom: 0;
 	margin-bottom: 0;
+	color:rgba(29, 132, 123,1);
 }
 
 .description p{
@@ -706,6 +710,10 @@ p.copyright
 	.informations_adresse, .informations_contact{
 		text-align: center;
 	}
+
+.description_conf{
+	height: auto;
+}
 
   label
   {
