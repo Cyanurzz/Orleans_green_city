@@ -1,5 +1,5 @@
 # Orleans green city at WildCodeSchool
-This was the first project ! Build in two weeks, we work in team for the first time too ( (mikami45)[https://github.com/mikami45], (Sands31)[https://github.com/Sands31], (Willou-bob)[https://github.com/Willou-bob]), (52-28)[https://github.com/52-28], we discovered github/git and versionning.
+This was the first project ! Build in two weeks, we work in team for the first time too ( (mikami45)[https://github.com/mikami45], [Sands31](https://github.com/Sands31), [Willou-bob](https://github.com/Willou-bob)), [52-28](https://github.com/52-28), we discovered github/git and versionning.
 
 ## Manual 
 ### Requirements
